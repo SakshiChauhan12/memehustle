@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+.text-neon {
+  color: #f0f;
+  text-shadow: 0 0 10px #f0f, 0 0 20px #0ff, 0 0 30px #f0f, 0 0 40px #0ff;
+}
+
+.neon-btn {
+  box-shadow: 0 0 10px #f0f, 0 0 15px #0ff, 0 0 20px #0ff;
+  transition: all 0.3s ease;
+}
+.neon-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #fff, 0 0 25px #f0f, 0 0 30px #0ff;
+}
